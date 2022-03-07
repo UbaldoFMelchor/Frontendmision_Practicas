@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido pasteleria via lactea</title>
+</head>
+<body>
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        
+        header {
+            
+            background-color: #4154D3;
+            padding: 30px;
+            text-align: left;
+            font-size: 25px;
+            color: white;
+        }
+
+        nav {
+            float: left;
+            width: 10%;
+            height: 1300px;
+          
+            background: #6771fc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 45%;
+            background-color: #8c4cf5;
+            height: 1300px;
+            text-align: left;
+        }
+        aside{
+            float: right;
+            padding: 20px;
+            width: 45%;
+            background-color:#673ae4e1;
+            text-align: right;
+            
+            height: 1300px;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: #7027f7d0;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+         <img src="./img/pasteleria.jpg" alt="logo pasteleria" width="150px">
+          <h2>Un sabor de otra galaxia</h2>
+       
+     
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="./Pasteleria.html"> <button>Home</button>
+                </a></li>
+                <li><a href="./administracion pasteleria.html"><button>administración</button></a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h2>Pedidos</h2>
+            <h3>Realiza tu pedido</h3>
+            <br><br>
+            <hr>
+            <h3>Fecha</h3><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+            <br>            
+   
+    <hr>
+    <label for="Pastel">Escoge tu pastel</label>
+    <select id="pastel" name="pastel">
+        <option value="3 leches">3 leches $260</option>
+        <option value="chocolate">Chocolate $270</option>
+        <option value="cajeta">Cajeta $290</option>
+        <option value="moka">Moka $300</option>
+        <option value="frutos rojos">Frutos rojos $320</option>
+        <option value="oreo">Oreo $350</option>        
+    </select>
+    <hr>
+    <h3>¿Deseas combinar con otro pastel?</h3><br>
+    <input type="radio" id="Si" name="combinar" value="Si">
+    <label for="Si">Si</label><br>
+    <input type="radio" id="No" name="combinar" value="No">
+    <label for="No">No</label><br>
+    <hr>
+    <label for="Sabor2">Escoge tu segundo Sabor</label>
+    <select id="Sabor2" name="Sabor">
+        <option value="N/A">N/A</option>
+        <option value="3 leches">3 leches $260</option>
+        <option value="chocolate">Chocolate $270</option>
+        <option value="cajeta">Cajeta $290</option>
+        <option value="moka">Moka $300</option>
+        <option value="frutos rojos">Frutos rojos $320</option>
+        <option value="oreo">Oreo $350</option>
+    </select>
+    <hr>
+    <h3>añade tus adornos para el pastel</h3><br>
+    <input type="checkbox" id="topping1" name="topping1" value="M&Ms">
+    <label for="topping1"> M&Ms $25</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Avellanas">
+    <label for="topping2">Avellanas $30</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Cubierta de chocolate">
+    <label for="topping3">Cubierta de chocolate $50</label><br>
+    <input type="checkbox" id="topping4" name="topping4" value="Glaseado">
+    <label for="topping4">Glaseado $50</label><br>
+    <hr>
+    <h2>Datos de contacto:</h2>
+    <label for="Input1">Nombre completo:</label>
+    <input type="text" id="Input1" name="Input1" style="width: 300px;">
+    <br><br>
+    <label for="tel1">Teléfono:</label>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+    <label for="correo1">Correo:</label>
+    <input type="email" id="correo1" name="correo1" style="width: 300px;"><br><br>
+    <label for="Input1">Observaciones del Pedido:</label><br>
+    <input type="text" id="Input2" name="Input2" style="width: 500px;height: 250px;"><br><br>
+
+    <input type="reset">
+    <input type="button" id="Enviar" name="Enviar" value="Enviar" onclick="alert('Su pedido ha sido enviado');"><br><br>
+        </article>
+          
+        <aside>
+            <hr>
+        <h2>Haga su pedido tambien por telefono al:</h2>
+        <p>1234567890</p>
+    
+        <H2>Recoga en tienda</H2>
+        <p>Calle Prolongacion de la via lactea #404</p>
+        <p>Colonia: Andromeda CP:12345</p>
+        <p>Xalapa; Veracruz.</p>
+    
+        <h2>Horario de antención</h2>
+        <p>Lunes a Viernes de 8:00 AM a 8:00 PM</p>
+        <br>
+        <hr>
+        
+        </aside>
+    </section>
+     
+
+  
+    <footer>
+        © 2022 Grupo Launchx S.A. de C.V. Todos los Derechos Reservados.
+        
+    </footer>
+  
+</body>

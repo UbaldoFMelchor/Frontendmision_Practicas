@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, inicial-scale=1.0">
+    <title>Administración Pastelería vía láctea</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        
+        header {
+            
+            background-color: #4154D3;
+            padding: 30px;
+            text-align: left;
+            font-size: 25px;
+            color: white;
+        }
+
+        nav {
+            float: left;
+            width: 10%;
+            height: 700px;
+          
+            background: #a867fc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 45%;
+            background-color: #8d68f1;
+            height: 700px;
+            text-align: left;
+        }
+        aside{
+            float: right;
+            padding: 20px;
+            width: 45%;
+            background-color:#8d68f1;
+            text-align: left;
+            
+            height: 700px;
+        }
+
+            section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+               footer {
+            background-color: #7027f7d0;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+      
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+            
+        }
+        
+    </style>
+    <header>
+       
+        <img src="./img/pasteleria.jpg" alt="logo pasteleria" width="150px">
+         <h2>Un sabor de otra galaxia</h2>
+      
+    
+   </header>
+   <section>
+    <nav>
+        <ul>
+            <li><a href="./pedido pasteleria.html"> <button>Haz tu pedido aqui</button>
+            </a></li>
+            <li><a href="./practica pasteleria html.html"> <button>Home</button>
+            </a></li>
+
+            
+    </nav>
+    <article>
+        <table border="1">
+           <hr>
+
+            <h2>Inventario</h2>
+            <hr>
+            <h3>Pasteles Disponibles</h3>
+            <tr>
+                <td>3 Leches</td>
+                <td><input type="number" id="numero1" name="numero1" value="42"></td>
+            </tr>
+            <tr>
+                <td>chocolate</td>
+                <td><input type="number" id="numero2" name="numero2" value="50"></td>
+            </tr>
+            <tr>
+                <td>cajeta</td>
+                <td><input type="number" id="numero3" name="numero3" value="65"></td>
+            </tr>
+            <tr>
+                <td>moka</td>
+                <td><input type="number" id="numero4" name="numero4" value="12"></td>
+            </tr>
+            <tr>
+                <td>frutos rojos</td>
+                <td><input type="number" id="numero5" name="numero5" value="77"></td>
+            </tr>
+            <tr>
+                <td>oreo</td>
+                <td><input type="number" id="numero6" name="numero6" value="9"></td>
+            </tr>                  
+        </table>
+        <hr>
+        <h3>Adornos Disponibles</h3>
+        <table border="2">
+            <tr>
+                <td>M&Ms</td>
+                <td><input type="number" id="numero7" name="numero7" value="62"></td>
+            </tr>
+            <tr>
+                <td>Avellanas</td>
+                <td><input type="number" id="numero8" name="numero8" value="10"></td>
+            </tr>
+            <tr>
+                <td>Cubierta de chocolate</td>
+                <td><input type="number" id="numero9" name="numero9" value="05"></td>
+            </tr>
+            <tr>
+                <td>Glaseado</td>
+                <td><input type="number" id="numero10" name="numero10" value="22"></td>
+            </tr>
+        </table>
+
+    </article>
+    <aside>
+        <hr>
+        <h2>Pedidos: </h2>
+        <hr>
+        <table border="3">
+        <tr>
+            <td>No. Orden</td>
+            <td>Sabores</td>
+            <td>Adornos</td>
+            <td>Estado</td>
+            <td>Fecha</td>
+        </tr>
+        <tr>
+            <td>162</td>
+            <td>chocolate<br>Moka</td>
+            <td>avellanas</td>
+            <td>Entregado</td>
+            <td>01/03/22</td>
+        </tr>
+        <tr>
+            <td>163</td>
+            <td>3 Leches<br></td>
+            <td>Glaseado</td>
+            <td>Entregado</td>
+            <td>01/03/22</td>
+        </tr>
+        <tr>
+            <td>164</td>
+            <td><br>Oreo</td>
+            <td>N/A</td>
+            <td>Cancelado</td>
+            <td>02/03/22</td>
+        </tr>
+        <tr>
+            <td>165</td>
+            <td>chocolate<br></td>
+            <td>M&Ms<br>Avellanas</td>
+            <td>Entregado</td>
+            <td>02/03/22</td>
+        </tr>
+        <tr>
+            <td>166</td>
+            <td>Frutos Rojos<br></td>
+            <td>N/A</td>
+            <td>Entregado</td>
+            <td>03/03/22</td>
+        </tr>
+        <tr>
+            <td>167</td>
+            <td>chocolate<br></td>
+            <td>Cubierta de chocolate<br>M&Ms</td>
+            <td>Entregado</td>
+            <td>04/03/22</td>
+        </tr>
+        <tr>
+            <td>168</td>
+            <td>Cajeta<br></td>
+            <td>avellanas<br></td>
+            <td>En proceso</td>
+            <td>05/03/22</td>
+        </tr>
+        <tr>
+            <td>169</td>
+            <td>Frutos Rojos<br></td>
+            <td>Cubierta de chocolate</td>
+            <td>En proceso</td>
+            <td>05/03/22</td>
+        </tr>
+        <tr>
+            <td>170</td>
+            <td>chocolate<br></td>
+            <td>avellanas<br>cubierta chocolate</td>
+            <td>En proceso</td>
+            <td>06/03/22</td>
+        </tr>
+        </table>
+
+
+    </aside>
+   </section>
+   
+
+   <footer>
+    © 2022 Grupo Launchx S.A. de C.V. Todos los Derechos Reservados.
+    
+</footer>
