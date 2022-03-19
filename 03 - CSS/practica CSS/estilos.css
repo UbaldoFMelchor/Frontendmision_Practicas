@@ -1,0 +1,342 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+div.container{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;     
+    height: 120px;
+    width: 100%; 
+    display:flex;    
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+div.logo{    
+    padding-left: 100px;
+    margin: 0 auto;  
+
+}
+div.a{
+    text-align:justify;
+    padding-right: 100px;
+    margin: 0 auto; 
+}
+.nav-button{
+    text-decoration: none;
+    border-radius: 3px;    
+    padding: 13px 25px;
+    color: white;
+    background-color:rgb(0, 81, 202);
+    
+
+}
+.nav-link{
+    font-size: 18px;
+    text-decoration: none;
+    color: gray;    
+}
+h1{
+    color: rgb(0, 81, 202);
+    font-size: 25px;    
+    font-weight: 900px;
+}
+nav a{
+    margin: 10px;
+    font-weight: bold;    
+}
+.nav-button:hover{
+    color:black;
+}
+nav a:hover{
+    color: rgb(0, 81, 202);    
+}
+div.imagen1{
+    float: right;
+    height: 1000px;
+    background-image: url("./img/imagen1b.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top right;
+    width: 50%;
+    
+}
+div.contenido1{
+    position:absolute;
+    top:120px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    height:880px;   
+    width: 50%;
+
+}
+ h2{
+    margin: 80px;
+    margin-bottom: 5px;   
+    padding: 25px 30px;
+    padding-bottom: 5px;
+    color: rgb(0, 54, 134);
+    font-size: 60px;
+    text-align: justify;
+}
+p{
+    margin:0px 80px;       
+    padding: 25px 30px;
+    color:gray;
+    font-size: 18px;
+    font-weight:bolder 600px;
+    text-align:left;
+    letter-spacing: 1px;
+}
+.iconos1{            
+    color:rgb(0, 54, 134);
+    font-size:16px; 
+    font-weight: bolder 500px;    
+}
+.iconos2{    
+    color:rgb(0, 54, 134);
+    font-size: 18px;
+    font-weight: bold;
+}
+div p img{             
+    width: 12px;
+    height: 12px;    
+}
+.location{
+    width: 60%;
+    height: 100px;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+    position: absolute;
+    top: 780px;
+    bottom: 40px;
+    left: 150px;
+    border: 1px solid lightgray;
+    background: rgba(255, 255, 255, 0.986);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    display: flex;
+}
+.location-iconos{
+    margin: 10px auto;      
+    display: inline-flexbox;
+    color: gray;
+    font-size: large;
+    font-weight: 500px;
+    letter-spacing: 1px;      
+}
+.location-button{
+    margin: 20px auto;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 3px;    
+    padding: 13px 25px;
+    color: white;
+    background-color:rgb(0, 81, 202);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.location-button:hover{
+    color:black;
+}
+.location-text{      
+    color: rgb(0, 54, 134);
+    font-size: 20px;
+    font-weight: bold;
+}
+.farmaceuticas{    
+    width: 100%;     
+}
+h3{
+    margin: 5px;      
+    padding: 25px 30px;
+    padding-bottom: 5px;
+    color: rgb(0, 54, 134);
+    font-size: 40px;
+    text-align: justify;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;   
+}
+.benefits-box{    
+    height: 280px;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    border-radius: 10px;    
+}
+.iconos3{
+    margin: auto 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefits-titles{
+    margin: 10px;
+    padding:0px;
+    font-size:18px;
+    font-weight: bold;
+    color:rgb(0, 54, 134);
+    display: flex;
+    justify-content: left;
+}
+.benefits{
+    margin: 50px 1px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen2{
+    margin-top: 200px;
+    float: left;
+    height: 1000px;
+    width: 50%;
+    background-image: url("./img/imagen2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.contenido2{
+    width: 50%;
+    float: right;
+}
+.Preparations-box{
+    margin: 20px auto;
+    padding: 15px 80px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(0, 54, 134);
+}
+.Preparations-box-open{
+    margin: 20px auto;
+    padding: 15px 80px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+    color: gray;
+}
+.imagen3{
+    margin-top: 10px;
+    float: right;
+    height: 800px;
+    width: 50%;
+    background-image: url("./img/imagen3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.contenido3{
+    width: 100%;
+    float: left;
+}
+.emergency-box{
+    margin-top: 180px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.emergency-icons{
+    margin: 10px;
+    float: left;    
+}
+.emergency-titles{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 1px;
+    padding: 5px;
+    font-size: 18px; 
+}
+.emergency-text{
+    display: flex;
+    flex-direction: column;
+}
+.emergency-p{
+    margin: 10px 1px;
+    margin-top: 1px;    
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500px;
+    text-align: center;
+    
+
+}
+
+.number-box{
+    border-radius: 10px;
+    border: 1px solid rgba(119, 119, 119, 0.171);
+    height: 200px;
+    padding: 20px;
+    width: 33%    
+}
+.emergency-button{
+    margin: 30px 0px;    
+    border-radius: 3px;    
+    padding: 30px 25px;
+    text-align: center;
+    background-color:rgba(119, 119, 119, 0.171);
+}
+.emergency-link{
+    text-decoration: none;
+    color: rgb(0, 54, 134);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.outro-contenedor{
+    background-color: rgba(119, 119, 119, 0.171);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.outro{    
+    margin: 10px 80px;
+    width: 20%;
+}
+.outro-p{
+    margin: 0px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.outro-link{
+    margin: 10px 80px;      
+
+}
+.outro-titles{
+    font-size: 18px;
+}
+.outro-a{
+    text-decoration: none;    
+    color: gray;    
+    display: flex;
+    justify-content: center;
+}
+.registered{
+    background-color: rgba(119, 119, 119, 0.171);
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;    
+}
+
+
+
+
+
